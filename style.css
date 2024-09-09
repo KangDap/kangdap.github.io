@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(45deg, #78baf3, #4266af);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container .content{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 40px;
+}
+
+.home-container .content p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.home-container .content img{
+    position: absolute;
+    top: 1%;
+    left: 130%;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.about-container .content p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.about-container .content .about-content{
+    position: absolute;
+    left: 130%;
+    top: 160%;
+    width: 500px;
+}
+
+.about-container .content img{
+    position: absolute;
+    top: 150%;
+    left: 10%;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.about-container .content{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    font-size: 40px;
+}
+
+.project-container .content{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 40px;
+}
+
+.home-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.home-container img{
+    width: 300px;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    right: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5x)
+}
+
+.projek {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.projek a{
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.projek a:hover{
+    background-color: #78baf3;
+    transition: 0.3s;
+    transform: scale(1.03);
+}
+
+.about-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.project-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.project-title {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+li a:hover {
+    background-color: #111;
+}
